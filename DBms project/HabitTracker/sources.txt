@@ -1,0 +1,17 @@
+src/com/savr/model/Person.java
+src/com/savr/model/User.java
+src/com/savr/model/Admin.java
+src/com/savr/model/Trackable.java
+src/com/savr/model/Habit.java
+src/com/savr/model/Record.java
+src/com/savr/utils/DBConnection.java
+src/com/savr/utils/InvalidLoginException.java
+src/com/savr/utils/UserNotFoundException.java
+src/com/savr/utils/AnalyticsThread.java
+src/com/savr/service/HabitService.java
+src/com/savr/service/HabitServiceImpl.java
+src/com/savr/dao/UserDAO.java
+src/com/savr/dao/HabitDAO.java
+src/com/savr/dao/RecordDAO.java
+src/com/savr/controller/HabitController.java
+src/com/savr/Main.java

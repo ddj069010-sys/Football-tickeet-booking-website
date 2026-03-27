@@ -1,0 +1,22 @@
+🔥 Terminal 1 → Backend (Server)
+
+In VS Code terminal:
+
+flatpak-spawn --host toolbox enter vscode
+cd "/home/sorbat/Documents/DBms project/Football ticket booking website/server"
+npm install
+npm run dev
+
+🔥 Terminal 2 → Frontend (Client)
+
+Open a new terminal in VS Code and run:
+
+flatpak-spawn --host toolbox enter vscode
+cd "/home/sorbat/Documents/DBms project/Football ticket booking website/client"
+npm install
+npm run dev
+
+🔥 2. Kill the process using the port
+Simple one-liner (best)
+fuser -k 5050/tcp
+fuser -k 5173/tcp

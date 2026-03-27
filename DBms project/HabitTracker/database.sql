@@ -1,0 +1,24 @@
+CREATE DATABASE IF NOT EXISTS savr;
+USE savr;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    password VARCHAR(100)
+);
+
+CREATE TABLE IF NOT EXISTS habits (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT,
+    name VARCHAR(100),
+    FOREIGN KEY(user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS records (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    habit_id INT,
+    date DATE,
+    status BOOLEAN,
+    FOREIGN KEY(habit_id) REFERENCES habits(id) ON DELETE CASCADE
+);

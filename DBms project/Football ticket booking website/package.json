@@ -1,0 +1,15 @@
+{
+    "name": "goalbooker",
+    "version": "2.0.0",
+    "private": true,
+    "description": "GoalBooker — Football Ticket Booking Platform (Full-Stack)",
+    "scripts": {
+        "dev:server": "cd server && npm run dev",
+        "dev:client": "cd client && npm run dev",
+        "start:server": "cd server && npm start",
+        "build:client": "cd client && npm run build",
+        "install:all": "cd server && npm install && cd ../client && npm install",
+        "start:all": "node scripts/startAll.js",
+        "test:system": "node scripts/testSystem.js"
+    }
+}
