@@ -1,0 +1,1 @@
+It is a Football ticket website Which help booking ticket effectively wihout waiting in long queue and get notification when cancled match or your ticket is denied.Which has both Website for both user + admin so user and admin can do there work effeciently saving million of eupees.
